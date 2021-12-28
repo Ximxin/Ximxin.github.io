@@ -83,6 +83,9 @@ let loadMusicTimeAndLyric = function () {
                 }
             }
         }
+    } else {
+        $(".top-music-lyric1").text("暂未找到歌词...");
+        $(".top-music-lyric2").text("");
     }
 };
 let loadMusicTitleAndMusic = function () {
